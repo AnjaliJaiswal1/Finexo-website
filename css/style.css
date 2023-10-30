@@ -9,6 +9,7 @@
 :root {
     scroll-behavior: smooth;
 }
+
 .navbar .cross-icon,
 .navbar .menu {
     display: none;
@@ -151,6 +152,10 @@ p {
 
 .main-image img {
     width: 40vw;
+    animation-name: upDownAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 /* ---------service-section---- */
@@ -409,4 +414,19 @@ footer .social-media {
 .sub-footer {
     text-align: center;
     margin: 25px 0;
+}
+
+@keyframes upDownAnimation {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translateY(100px);
+
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
 }
