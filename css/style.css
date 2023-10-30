@@ -9,6 +9,10 @@
 :root {
     scroll-behavior: smooth;
 }
+.navbar .cross-icon,
+.navbar .menu {
+    display: none;
+}
 
 .padding-horizontal {
     padding: 0px 100px;
@@ -79,10 +83,7 @@ p {
     align-items: center;
 }
 
-.cross-icon,
-.menu {
-    display: none;
-}
+
 
 .primary-btn {
     color: white;
