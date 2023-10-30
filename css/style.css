@@ -3,8 +3,10 @@
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    overflow-x: hidden;
 }
-:root{
+
+:root {
     scroll-behavior: smooth;
 }
 
@@ -77,6 +79,11 @@ p {
     align-items: center;
 }
 
+.cross-icon,
+.menu {
+    display: none;
+}
+
 .primary-btn {
     color: white;
     background-color: #00bbf0;
@@ -125,9 +132,8 @@ p {
 .links i {
     padding-right: 10px;
 }
-.menu{
-    display: none;
-}
+
+
 
 .main-page-content {
     justify-content: space-between;
@@ -278,7 +284,6 @@ p {
 .team-cards-section {
     width: 100%;
     gap: 20px;
-    flex-wrap: wrap;
 }
 
 .team-card {
@@ -327,9 +332,8 @@ p {
 }
 
 .customers-cards-section {
-   
     gap: 30px;
-    flex-wrap: wrap;
+
 }
 
 .customer-card {
