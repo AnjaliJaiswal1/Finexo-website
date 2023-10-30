@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 :root {
@@ -340,7 +340,7 @@ p {
     position: relative;
     /* border: 1px solid grey; */
     box-shadow: 5px 5px 15px rgb(196, 194, 194);
-    width: 48%;
+    width: 46%;
 
 }
 
